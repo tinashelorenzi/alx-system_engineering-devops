@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Echos I'm alive to my_process forever and sleeps 2s in each itr
 
 while true
 do

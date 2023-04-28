@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Starts and terminates process out of var,run
 
 if [ "${1}" == "start" ]
 then

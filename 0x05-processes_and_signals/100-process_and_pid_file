@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Desplays current pid of a script riven and some strings
 
 terminator() {
   rm /var/run/myscript.pid
