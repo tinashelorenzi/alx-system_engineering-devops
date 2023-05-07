@@ -1,8 +1,9 @@
-#!/bin/bash
-#Pings given host with 5 packet sets
-if [ $# -eq 0 ]; then
-  echo "Usage: $0 {IP_ADDRESS}"
-  exit 1
-fi
+#!/usr/bin/env bash
+# Pings an IP address with 5 packets
 
-ping -c 5 $1
+if [ $# -eq 0 ]
+then
+  echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+  ping -c 5 "$1"
+fi
