@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Prints pockets and programs using em
+
+netstat -l --program
