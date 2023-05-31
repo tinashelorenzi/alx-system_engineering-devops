@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for jpgfile in *.jpg; do
+    # Extract the filename without the extension
+    filename="${jpgfile%.*}"
+    
+    # Create an empty file with the same name as the JPG file
+    touch "$filename"
+done
